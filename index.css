@@ -1,0 +1,70 @@
+.container{
+     text-align: center;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40PX;
+}
+.containerTable{
+    text-align: center;
+    padding: 0px 200px;
+    border-collapse: collapse;
+    font-size: large ;
+    margin-left: 100px;
+    background-size: cover;
+    
+
+}
+.imageProduct{
+    width: 200px;
+    
+}
+
+.edit{
+    color: black;
+    background-color: #ff5722;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px ;
+    
+    
+}
+
+.delete{
+    color: white;
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px ;
+}
+#btnSubmit{
+    background-color: blue;
+    width: 600px;
+    height: 40px;
+    border-radius:20px ;
+    margin-top: 20px;
+    font-size: larger;
+}
+td, th {
+    padding: 40px; /* Đặt giá trị padding cho ô trong bảng */
+    border: 1px solid #ddd; /* Đặt đường viền để phân biệt ô */
+}
+.formName{
+    font-size: larger;
+    
+}
+.formPrice{
+    font-size: larger;
+    
+}
+#name{
+    width: 600px;
+    height: 30px;
+}
+#price{
+    width: 600px;
+    height: 30px;
+
+}

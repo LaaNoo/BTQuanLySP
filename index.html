@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+<body>
+    <div class="container">
+
+        <h1> Quản lý sản phẩm</h1>
+        <h2>Đăng kí sản phẩm</h2>
+
+        <div class="quanLi">
+           
+            <form action="sever url">
+
+                <div class="formName">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="usename">
+                </div>
+
+                <div class="formPrice">
+                    <label for="price">Price</label><br>
+                    <input type="number" id="price" name="usename">
+                </div>
+                
+                <div class="submit">
+
+                    <input type="button" value="Submit" id="btnSubmit">
+
+                </div>
+
+
+            </form>
+        </div>
+        <h2>Danh sách sản phẩm </h2>
+
+
+
+    </div>
+    <div class="containerTable">
+
+        <table>
+            <thead>
+                <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Price </th>
+                <th>Action</th>
+                </tr>
+                
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td>BMW 3 SERIES</td>
+                    <td><img src="image/bmw-3-series-330i-msport-3-800x450.jpg" alt="BMW 420i Coupe" class="imageProduct"></td>
+                    <td>1,435 Tỷ</td>
+                    <td>
+                        <div class="buttonAction">
+                            <button class="edit">Edit</button>
+                            <button class="delete" >Delete</button>                            
+                        </div>
+                    </td>
+                 </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>BMW 5 SERIES</td>
+                    <td><img src="image/bmw-5-series.png" alt="BMW 5 SERIES" class="imageProduct"></td>
+                    <td>1,829 Tỷ</td>
+                    <td>
+                        <div class="buttonAction">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>                            
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>BMW I4</td>
+                    <td><img src="image/bmw-i4-04.png" alt="BMW I4" class="imageProduct"></td>
+                    <td>2,899 Tỷ</td>
+                    <td>
+                        <div class="buttonAction">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>                            
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>BMW 430I M SPORT</td>
+                    <td><img src="image/bmw-4-series-2.png" alt="BMW 430I M SPORT" class="imageProduct"></td>
+                    <td>3,115 Tỷ</td>
+                    <td>
+                        <div class="buttonAction">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>                            
+                        </div>
+                    </td>
+                </tr>
+
+              
+            </tbody>
+        </table>
+
+    </div>
+
+
+</body>
+</html>
